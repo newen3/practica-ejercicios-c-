@@ -14,12 +14,12 @@ namespace MiProyecto
         Tienda MyTienda = new Tienda("Perez");
 
         //instancio los producto.
-        Producto yerva = new Producto("yerva",5,40);
+        Producto yerva = new Producto("yerba",5,40);
         Producto mermelada = new Producto("mermelada",9,70);
         Producto azucar = new Producto("azucar",10,13);
 
         //agregos los productos.
-        MyTienda.AgregarProducto(yerva);
+        MyTienda.AgregarProducto(yerba);
         MyTienda.AgregarProducto(mermelada);
         MyTienda.AgregarProducto(azucar);
 
