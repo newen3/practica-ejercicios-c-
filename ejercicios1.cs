@@ -6,7 +6,7 @@ namespace MiProyecto
         public string Nombre;
         public double Precio;
         public int Cantidad;
-
+        // constructor que inicializa con todas las propiedades del objeto.
         public Producto(string nombre,double precio, int cantidad)
         {
             this.Nombre = nombre;
@@ -21,12 +21,12 @@ namespace MiProyecto
         //cree una lista para contener los productos de la tienda.
         public string Nombre;
         public List<Producto> Productos = new List<Producto>();
-
+        // constructor que inicializa con el nombre de la tienda.
         public Tienda(string nombre) 
         {
             this.Nombre = nombre;
         }
-
+        //agrega un producto nuevo a la tienda.
         public void AgregarProducto(Producto ProductoAAgregar)
         {
             Productos.Add(ProductoAAgregar);
