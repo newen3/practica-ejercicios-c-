@@ -26,7 +26,7 @@ namespace MiProyecto
         MyTienda.VenderProducto("mermelada",21);
 
 
-        /* PLANTILLA PARA CREAR OBJETOS.
+        /* PLANTILLA PARA INSTANCIAR OBJETOS.
             //crea un objeto.
             Auto miAuto = new Auto("amarillo","modelo",0);
             miAuto.color = "Rojo";
