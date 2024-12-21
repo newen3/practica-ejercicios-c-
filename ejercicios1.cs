@@ -125,15 +125,15 @@ namespace MiProyecto
 
     class Curso
     {
+        // define las propiedades del objeto.
+        List<Alumno> alumnos = new List<Alumno>();
         public string Nombre;
 
         public Curso(string Nombre)
         {
             this.Nombre = Nombre;
         }
-        // crea una lista de objetos de tipo Alumno.
-        List<Alumno> alumnos = new List<Alumno>();
-
+        
         public void AgregarAlumno(string NombreAgregar, int EdadAgregar)
         {
         //agrega un nuevo objeto de tipo alumno al final de la lista.
