@@ -126,7 +126,7 @@ namespace MiProyecto
     class Curso
     {
         // define las propiedades del objeto.
-        List<Alumno> alumnos = new List<Alumno>();
+        public List<Alumno> alumnos = new List<Alumno>();
         public string Nombre;
 
         public Curso(string Nombre)
