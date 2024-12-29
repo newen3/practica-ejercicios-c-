@@ -27,7 +27,7 @@ class Vehiculo
 
 }
 
-class Auto : Vehiculo// clase dericada de vehiculo.
+class Auto : Vehiculo// clase derivada de vehiculo.
 {
     public int cantidadAcientos;
 
@@ -53,7 +53,7 @@ class Auto : Vehiculo// clase dericada de vehiculo.
 
 }
 
-class Moto : Vehiculo// clase dericada de vehiculo
+class Moto : Vehiculo// clase derivada de vehiculo
 {
     public int cilindrada;
 
@@ -78,7 +78,7 @@ class Moto : Vehiculo// clase dericada de vehiculo
     }
 }
 
-class Bicicleta : Vehiculo// clase dericada de vehiculo
+class Bicicleta : Vehiculo// clase derivada de vehiculo
 {
     public int rodado;
 
