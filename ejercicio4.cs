@@ -1,5 +1,4 @@
 using System;
-using Practica;
 
 public abstract class Viaje 
 {
